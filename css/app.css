@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global */
+body {
+    background: green;
+}
+
+
+.contenedor {
+    background: rgb(84, 197, 207);
+    margin: auto;
+    width: auto;
+    height: 100vh;
+}
+
+.logo {
+width: 100%;
+float: left;
+background: red;
+}
+
+
+/* Cuadro texto */
+.cuadro-texto {
+    background-color: yellow;
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 29px;
+}
+
+
+/* bloque derecha */
+.bloque-derecha {
+    background-color: orange;
+    float: right;    
+    width: 30%;
+    height: auto;
+    border-radius: 29px;
+}
+
+
+/* bloque botones */
+.bloque-botones {
+    background: pink;
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 29;
+}
