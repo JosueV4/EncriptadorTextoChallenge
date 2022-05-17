@@ -6,35 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge 1 - Encriptador</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 
 
 </head>
 <body>
 
-    <div class="contenedor">
+    <header>
+        <div class="logo"></div>
+        <h1 class="tittle">Encriptador de Texto</h1>
+    </header>
 
-        <div class="logo">
-            <div class="logo-alura">
-                <img src="img/Vector.png" alt="logo-alura">
-            </div>
-            <div class="titulo-encriptador">
-                <h1>Encriptador de Texto</h1>
-            </div>
+
+    <div class="container">
+        <div class="left-column">
+            <input class="text-input" type="text" placeholder="Ingrese el texto aquí">
         </div>
-
-        <div class="bloque-botones">
-            <h1>botones</h1>
+        <div class="right-column">
+            <img class="imgmuneco" src="img/Muñeco.png" alt="muñeco">
+            <h1 class="texto-mensaje">Ningún mensaje fue encontrado</h1>
+            <textarea class="texto-mensaje2" name="name" rows="8" cols="80">Ingresa el texto que desees encriptar o desencriptar.</textarea>
         </div>
-       
-        <div class="cuadro-texto">
-            <h1>Ingrese el texto aquí</h1>
+        <div class="button">
+        <p>Solo letras minúsculas y sin acentos</p>
+        <button class="button1" type="button">Encriptar</button>
+        <button class="button2" type="button">Desencriptar</button>
         </div>
-
-        <div class="bloque-derecha"> 
-            <img src="img/Muñeco.png" alt="muñeco">
-         </div>
-
     </div>
 
 </body>

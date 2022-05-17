@@ -1,58 +1,121 @@
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
-
 *, *::before, *::after {
     box-sizing: inherit;
-    margin: 0;
-    padding: 0;
 }
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+}
+
 
 /* Global */
-body {
-    background: green;
+h1 {
+    font-size: 2rem;
 }
 
 
-.contenedor {
-    background: rgb(84, 197, 207);
-    margin: auto;
-    width: auto;
-    height: 100vh;
-}
 
+
+.container {
+    max-height: 100vw;
+    margin: 0 auto;
+}
 .logo {
-width: 100%;
-float: left;
-background: red;
+    width: 100%;
+    float: left;
+    background: red;
 }
-
-
-/* Cuadro texto */
-.cuadro-texto {
-    background-color: yellow;
+.left-column {
     float: left;
     width: 70%;
-    height: auto;
-    border-radius: 29px;
+    height: 60vh;
+    border-radius: 24px;
+    background: yellow;
 }
-
-
-/* bloque derecha */
-.bloque-derecha {
-    background-color: orange;
-    float: right;    
+.right-column {
+    float: right;
     width: 30%;
-    height: auto;
-    border-radius: 29px;
+    height: 70%;
+    border-radius: 2rem;
+    background: orange;
 }
-
-
-/* bloque botones */
-.bloque-botones {
-    background: pink;
+.button {
     float: left;
     width: 70%;
     height: auto;
-    border-radius: 29;
+    border-radius: 24px;
+    background: pink;
+}
+
+
+/* Header */
+.logo {
+    background-image: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 5rem;
+    margin: 2rem 5rem;
+
+   
+.tittle {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+
+/* column center */
+
+
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0a3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #f3f5fc;
+}
+
+
+/* right column */
+.imgmuneco {
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+.texto-mensaje {
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.texto-mensaje2 {
+    float: left;
+    margin-left: 10%;
+    color: #0a3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+
+/* Botones */
+.button1,
+.button2 {
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10px;
+    background: #0A3871;
+    color: #fff;
 }
